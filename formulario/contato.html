@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheets" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <form method="get" action="https://www.w3schools.com/action_page.php">
+      <fieldset>
+        <legend>Contato</legend>
+        <label for="name"> Nome Completo: </label>
+        <input
+          required
+          type="text"
+          id="name"
+          name="name"
+          placeholder="digite o seu nome completo aqui"
+        />
+        <div>
+        <label for="email"> Email: </label>
+        <input
+          required
+          type="email"
+          id="email"
+          name="email"
+          placeholder="digite seu e-mail aqui"
+        />
+        <div>
+        <label required for="assunto"> Assunto: </label>
+        <input type="text" id= "assunto" nome = "assunto"/><br>
+        <label for="mensagem">Mensagem: </label><br>
+        <textarea required name ="mensagem"></textarea>
+
+        <div>
+        <input type="submit" value="send" value="Enviar" />
+      </fieldset>
+    </form>
+  </body>
+</html>
